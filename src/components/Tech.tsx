@@ -40,8 +40,8 @@ const Tech = () => {
         return 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg';
       case 'figma':
         return 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/figma/figma-original.svg';
-      case 'docker':
-        return 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/docker/docker-original.svg';
+      case 'PostgreSQL':
+        return 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/postgresql/postgresql-original.svg';
       default:
         return `https://placehold.co/400?text=${techName}`;
     }

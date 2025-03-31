@@ -28,7 +28,12 @@ const ExperienceCard = ({ experience }: ExperienceCardProps) => (
         <img
           src={experience.icon}
           alt={experience.companyName}
-          className="w-[60%] h-[60%] object-contain"
+          className="w-[90%] h-[90%] object-cover rounded-full"
+          style={{
+            objectFit: 'cover',
+            objectPosition: 'center',
+            aspectRatio: '1',
+          }}
         />
       </div>
     }

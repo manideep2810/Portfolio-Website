@@ -95,8 +95,8 @@ const technologies = [
     icon: "figma",
   },
   {
-    name: "docker",
-    icon: "docker",
+    name: "PostgreSQL",
+    icon: "https://upload.wikimedia.org/wikipedia/commons/2/29/Postgresql_elephant.svg",
   },
 ];
 
@@ -104,7 +104,7 @@ const experiences = [
   {
     title: "Ride Sharing Application",
     companyName: "",
-    icon: "company1",
+    icon: "https://imageio.forbes.com/specials-images/imageserve/1160487949/Uber-app-shown-on-smartphone/960x0.jpg?format=jpg&width=960",
     iconBg: "#383E56",
     date: "March 2020 - April 2021",
     points: [
@@ -117,7 +117,7 @@ const experiences = [
   {
     title: "Chat Application",
     companyName: "",
-    icon: "company2",
+    icon: "https://private-user-images.githubusercontent.com/146804007/428433997-df2d8a0e-3c70-4841-923b-9ed6944306e6.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3NDMzNzUxNDcsIm5iZiI6MTc0MzM3NDg0NywicGF0aCI6Ii8xNDY4MDQwMDcvNDI4NDMzOTk3LWRmMmQ4YTBlLTNjNzAtNDg0MS05MjNiLTllZDY5NDQzMDZlNi5wbmc_WC1BbXotQWxnb3JpdGhtPUFXUzQtSE1BQy1TSEEyNTYmWC1BbXotQ3JlZGVudGlhbD1BS0lBVkNPRFlMU0E1M1BRSzRaQSUyRjIwMjUwMzMwJTJGdXMtZWFzdC0xJTJGczMlMkZhd3M0X3JlcXVlc3QmWC1BbXotRGF0ZT0yMDI1MDMzMFQyMjQ3MjdaJlgtQW16LUV4cGlyZXM9MzAwJlgtQW16LVNpZ25hdHVyZT00YjFlMTZlNWJlNTkyOTQzYWVhZDE5MWRiNjA4ODk5ZmQ4NzI5Y2Q2MzUzOGNiNzkxOWFhMmJhNTdiNjVjYzFkJlgtQW16LVNpZ25lZEhlYWRlcnM9aG9zdCJ9.gf8JmkmK61TDtmwadiw0ked6WQuauKLJw06noR1e1vc",
     iconBg: "#E6DEDD",
     date: "Jan 2021 - Feb 2022",
     points: [
@@ -129,7 +129,7 @@ const experiences = [
   {
     title: "Railway Management API",
     companyName: "",
-    icon: "company3",
+    icon: "https://media.istockphoto.com/id/182262339/photo/high-speed-train.jpg?s=612x612&w=0&k=20&c=a_TyErbqDZKO9du0eUMHwl7lF9QRFLmMNCJyacGiZOM=",
     iconBg: "#383E56",
     date: "Jan 2022 - Jan 2023",
     points: [
@@ -142,7 +142,7 @@ const experiences = [
   {
     title: "Book Notes App",
     companyName: "",
-    icon: "company4",
+    icon: "https://private-user-images.githubusercontent.com/146804007/398187267-0cfa4b86-7ef8-41cb-95d3-60bc67fd406c.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3NDM0MDc0NzIsIm5iZiI6MTc0MzQwNzE3MiwicGF0aCI6Ii8xNDY4MDQwMDcvMzk4MTg3MjY3LTBjZmE0Yjg2LTdlZjgtNDFjYi05NWQzLTYwYmM2N2ZkNDA2Yy5wbmc_WC1BbXotQWxnb3JpdGhtPUFXUzQtSE1BQy1TSEEyNTYmWC1BbXotQ3JlZGVudGlhbD1BS0lBVkNPRFlMU0E1M1BRSzRaQSUyRjIwMjUwMzMxJTJGdXMtZWFzdC0xJTJGczMlMkZhd3M0X3JlcXVlc3QmWC1BbXotRGF0ZT0yMDI1MDMzMVQwNzQ2MTJaJlgtQW16LUV4cGlyZXM9MzAwJlgtQW16LVNpZ25hdHVyZT1iN2Y1M2ZkMDYyODNhOGYxZGY0M2M3ZDI0ZmY0OTE5ZDQ3MjdiNmM3ZDUxNmUxZGRjNjk3ZmYyNTJmNWE4MmI5JlgtQW16LVNpZ25lZEhlYWRlcnM9aG9zdCJ9.s8xwmqgFPD_D7jdUW-U9mJUXhCf5kWM0CEJDzW25fZs",
     iconBg: "#E6DEDD",
     date: "Jan 2023 - Present",
     points: [
@@ -151,7 +151,6 @@ const experiences = [
       "Added sorting options to filter books based on rating, recency, and author for better discoverability.",
       "Integrated a feature to save and manage short notes for each book, enhancing user engagement.",
     ],
-    
   },
 ];
 

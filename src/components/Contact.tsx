@@ -1,24 +1,29 @@
-import React, { useState, useRef, FormEvent, ChangeEvent, Suspense, useEffect } from 'react';
+import React, { useState, useRef, FormEvent, ChangeEvent, useEffect } from 'react';
 import { motion } from 'framer-motion';
 import emailjs from '@emailjs/browser';
 import { styles } from '../styles';
-// Import EarthCanvas with error handling
 import { EarthCanvas } from './canvas';
 import { slideIn } from '../utils/motion';
 
+// Define EmailJS template parameters interface for type safety
+interface EmailFormData {
+  name: string;
+  email: string;
+  message: string;
+}
+
 const Contact = () => {
   const formRef = useRef<HTMLFormElement>(null);
-  const [form, setForm] = useState({
+  const [form, setForm] = useState<EmailFormData>({
     name: '',
     email: '',
     message: '',
   });
   const [loading, setLoading] = useState(false);
-  // Add state for tracking if Earth component fails to render
   const [earthError, setEarthError] = useState(false);
 
   useEffect(() => {
-    // Initialize EmailJS with your actual public key
+    // Initialize EmailJS
     emailjs.init("EymnO6xykDzI1s-1W");
     console.log("EmailJS initialized");
   }, []);
@@ -26,16 +31,14 @@ const Contact = () => {
   const handleChange = (e: ChangeEvent<HTMLInputElement | HTMLTextAreaElement>) => {
     const { name, value } = e.target;
     
-    // Map the field names to the form state properties
-    const fieldNameMap: Record<string, keyof typeof form> = {
+    // Map form field names to state properties
+    const fieldNameMap: Record<string, keyof EmailFormData> = {
       'from_name': 'name',
       'from_email': 'email',
       'message': 'message'
     };
     
-    // Use the mapped name or the original name if no mapping exists
-    const formField = fieldNameMap[name] || name as keyof typeof form;
-    
+    const formField = fieldNameMap[name] || name as keyof EmailFormData;
     setForm({ ...form, [formField]: value });
   };
 
@@ -43,36 +46,30 @@ const Contact = () => {
     e.preventDefault();
     setLoading(true);
 
-    if (!formRef.current) {
-      console.error("Form reference is null");
-      setLoading(false);
-      alert("Something went wrong. Please try again.");
-      return;
-    }
+    // Log the form values for debugging
+    console.log("Form values:", form);
 
-    // Create template parameters with explicit recipient
+    // Create template parameters with all necessary fields
     const templateParams = {
       from_name: form.name,
       from_email: form.email,
       message: form.message,
-      to_name: 'ManiDeep',
-      to_email: 'manideepnaidugorle@gmail.com', // Your email address
-      reply_to: form.email
+      reply_to: form.email,  // Ensures you can reply directly
+      to_name: 'Manideep'    // Your name as recipient
     };
 
-    console.log("Sending email with params:", templateParams);
+    console.log("Sending with params:", templateParams);
 
-    // Use send instead of sendForm
+    // Send email with updated parameters
     emailjs
       .send(
-        "service_kho0ncb",
-        "template_fpdr7cm",
-        templateParams,
-        "EymnO6xykDzI1s-1W"
+        "service_kho0ncb", 
+        "template_yzipz8b",
+        templateParams
       )
       .then(
         (response) => {
-          console.log("Email sent successfully!", response);
+          console.log("SUCCESS!", response);
           setLoading(false);
           alert('Thank you. I will get back to you as soon as possible.');
 
@@ -84,15 +81,12 @@ const Contact = () => {
         },
         (error) => {
           console.error('Error sending email:', error);
+          if (error.text) console.error('Error details:', error.text);
+          
           setLoading(false);
           alert(`Something went wrong. Please try again. Error: ${error.text || 'Unknown error'}`);
         }
       );
-  };
-
-  // Error boundary for 3D component
-  const handleEarthError = () => {
-    setEarthError(true);
   };
 
   return (
@@ -167,13 +161,7 @@ const Contact = () => {
             <p className="text-secondary">Contact me via the form</p>
           </div>
         ) : (
-          <Suspense fallback={
-            <div className="w-full h-full bg-tertiary rounded-2xl flex items-center justify-center">
-              <p className="text-secondary">Loading 3D Model...</p>
-            </div>
-          }>
-            <EarthCanvas />
-          </Suspense>
+          <EarthCanvas />
         )}
       </motion.div>
     </div>

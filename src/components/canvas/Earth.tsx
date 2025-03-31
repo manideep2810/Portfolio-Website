@@ -1,8 +1,7 @@
-import React, { Suspense, useRef } from 'react';
+import { Suspense, useRef } from 'react';
 import { Canvas, useFrame } from '@react-three/fiber';
-import { OrbitControls, Preload, Sphere, MeshDistortMaterial } from '@react-three/drei';
+import { OrbitControls, Sphere } from '@react-three/drei';
 import * as THREE from 'three';
-
 import CanvasLoader from '../Loader';
 
 const Earth = () => {
@@ -16,13 +15,11 @@ const Earth = () => {
 
   return (
     <mesh ref={earthRef}>
-      <Sphere args={[1.5, 64, 64]}>
-        <MeshDistortMaterial 
-          color="#3d1c56"
-          attach="material"
-          distort={0.4}
-          speed={1.5}
-          roughness={1}
+      <Sphere args={[1.7, 64, 64]}>
+        <meshStandardMaterial
+          color="#4444ff"
+          metalness={0.7}
+          roughness={0.2}
         />
       </Sphere>
     </mesh>
@@ -33,7 +30,7 @@ const EarthCanvas = () => {
   return (
     <Canvas
       shadows
-      frameloop="demand"
+      frameloop="always"
       gl={{ preserveDrawingBuffer: true }}
       camera={{
         fov: 45,
@@ -43,18 +40,18 @@ const EarthCanvas = () => {
       }}
     >
       <Suspense fallback={<CanvasLoader />}>
-        <ambientLight intensity={0.5} />
-        <directionalLight position={[0, 0, 5]} intensity={1} />
         <OrbitControls
           autoRotate
+          autoRotateSpeed={3}
           enableZoom={false}
           maxPolarAngle={Math.PI / 2}
           minPolarAngle={Math.PI / 2}
         />
+        <ambientLight intensity={0.5} />
+        <directionalLight position={[2, 2, 5]} intensity={2} />
+        <pointLight position={[-2, -2, 2]} intensity={1} />
         <Earth />
       </Suspense>
-
-      <Preload all />
     </Canvas>
   );
 };

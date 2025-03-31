@@ -47,7 +47,7 @@ const Navbar = () => {
             className='w-9 h-9 object-contain' 
           />
           <p className='text-white text-[18px] font-bold cursor-pointer flex'>
-            MANI DEEP &nbsp;
+            Manideep Naidu &nbsp;
             <span className='sm:block hidden'> | Portfolio</span>
           </p>
         </Link>
