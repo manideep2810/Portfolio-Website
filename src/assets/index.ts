@@ -1,42 +1,42 @@
-// Placeholder assets - replace with your actual image files
-const logo = '';
-const menu = '';
-const close = '';
+// Using placeholder images from public CDNs
+const logo = 'https://img.icons8.com/nolan/64/code.png';
+const menu = 'https://img.icons8.com/material-outlined/24/000000/menu--v1.png';
+const close = 'https://img.icons8.com/material-outlined/24/000000/delete-sign.png';
 
 // Placeholders for service icons
-const web = '';
-const mobile = '';
-const backend = '';
-const creator = '';
+const web = 'https://img.icons8.com/fluency/48/000000/web.png';
+const mobile = 'https://img.icons8.com/fluency/48/000000/touchscreen-smartphone.png';
+const backend = 'https://img.icons8.com/fluency/48/000000/database.png';
+const creator = 'https://img.icons8.com/fluency/48/000000/idea.png';
 
 // Placeholders for company icons
-const company1 = '';
-const company2 = '';
-const company3 = '';
-const company4 = '';
+const company1 = 'https://img.icons8.com/color/48/000000/company.png';
+const company2 = 'https://img.icons8.com/color/48/000000/company.png';
+const company3 = 'https://img.icons8.com/color/48/000000/company.png';
+const company4 = 'https://img.icons8.com/color/48/000000/company.png';
 
 // Placeholders for project images
-const project1 = '';
-const project2 = '';
-const project3 = '';
+const project1 = 'https://via.placeholder.com/300x200/4A6FF3/FFFFFF?text=Project+1';
+const project2 = 'https://via.placeholder.com/300x200/4A6FF3/FFFFFF?text=Project+2';
+const project3 = 'https://via.placeholder.com/300x200/4A6FF3/FFFFFF?text=Project+3';
 
 // Placeholders for technology icons
-const html = '';
-const css = '';
-const javascript = '';
-const typescript = '';
-const reactjs = '';
-const redux = '';
-const tailwind = '';
-const nodejs = '';
-const mongodb = '';
-const threejs = '';
-const git = '';
-const figma = '';
-const docker = '';
+const html = 'https://img.icons8.com/color/48/000000/html-5--v1.png';
+const css = 'https://img.icons8.com/color/48/000000/css3.png';
+const javascript = 'https://img.icons8.com/color/48/000000/javascript--v1.png';
+const typescript = 'https://img.icons8.com/color/48/000000/typescript.png';
+const reactjs = 'https://img.icons8.com/color/48/000000/react-native.png';
+const redux = 'https://img.icons8.com/color/48/000000/redux.png';
+const tailwind = 'https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/Tailwind_CSS_Logo.svg/48px-Tailwind_CSS_Logo.svg.png';
+const nodejs = 'https://img.icons8.com/color/48/000000/nodejs.png';
+const mongodb = 'https://img.icons8.com/color/48/000000/mongodb.png';
+const threejs = 'https://upload.wikimedia.org/wikipedia/commons/thumb/3/3f/Three.js_Icon.svg/48px-Three.js_Icon.svg.png';
+const git = 'https://img.icons8.com/color/48/000000/git.png';
+const figma = 'https://img.icons8.com/color/48/000000/figma--v1.png';
+const docker = 'https://img.icons8.com/color/48/000000/docker.png';
 
 // Github icon
-const github = '';
+const github = 'https://img.icons8.com/fluency/48/000000/github.png';
 
 export {
   logo,
