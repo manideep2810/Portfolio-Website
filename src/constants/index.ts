@@ -117,7 +117,7 @@ const experiences = [
   {
     title: "Chat Application",
     companyName: "",
-    icon: "https://private-user-images.githubusercontent.com/146804007/428433997-df2d8a0e-3c70-4841-923b-9ed6944306e6.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3NDMzNzUxNDcsIm5iZiI6MTc0MzM3NDg0NywicGF0aCI6Ii8xNDY4MDQwMDcvNDI4NDMzOTk3LWRmMmQ4YTBlLTNjNzAtNDg0MS05MjNiLTllZDY5NDQzMDZlNi5wbmc_WC1BbXotQWxnb3JpdGhtPUFXUzQtSE1BQy1TSEEyNTYmWC1BbXotQ3JlZGVudGlhbD1BS0lBVkNPRFlMU0E1M1BRSzRaQSUyRjIwMjUwMzMwJTJGdXMtZWFzdC0xJTJGczMlMkZhd3M0X3JlcXVlc3QmWC1BbXotRGF0ZT0yMDI1MDMzMFQyMjQ3MjdaJlgtQW16LUV4cGlyZXM9MzAwJlgtQW16LVNpZ25hdHVyZT00YjFlMTZlNWJlNTkyOTQzYWVhZDE5MWRiNjA4ODk5ZmQ4NzI5Y2Q2MzUzOGNiNzkxOWFhMmJhNTdiNjVjYzFkJlgtQW16LVNpZ25lZEhlYWRlcnM9aG9zdCJ9.gf8JmkmK61TDtmwadiw0ked6WQuauKLJw06noR1e1vc",
+    icon: "https://i.imgur.com/ZZ5GZYK.png",
     iconBg: "#E6DEDD",
     date: "Jan 2021 - Feb 2022",
     points: [
@@ -161,7 +161,7 @@ const certifications = [
     date: "May 2023",
     credentialID: "803dfb93f740b11d4c1fd7406144d17d",
     credentialURL: "https://media.geeksforgeeks.org/courses/certificates/803dfb93f740b11d4c1fd7406144d17d.pdf",
-    image: "https://private-user-images.githubusercontent.com/146804007/428436491-eb0485fe-61b2-49d7-898d-0a2f83670d48.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3NDMzNzc4ODcsIm5iZiI6MTc0MzM3NzU4NywicGF0aCI6Ii8xNDY4MDQwMDcvNDI4NDM2NDkxLWViMDQ4NWZlLTYxYjItNDlkNy04OThkLTBhMmY4MzY3MGQ0OC5wbmc_WC1BbXotQWxnb3JpdGhtPUFXUzQtSE1BQy1TSEEyNTYmWC1BbXotQ3JlZGVudGlhbD1BS0lBVkNPRFlMU0E1M1BRSzRaQSUyRjIwMjUwMzMwJTJGdXMtZWFzdC0xJTJGczMlMkZhd3M0X3JlcXVlc3QmWC1BbXotRGF0ZT0yMDI1MDMzMFQyMzMzMDdaJlgtQW16LUV4cGlyZXM9MzAwJlgtQW16LVNpZ25hdHVyZT02ZjU4MTZmOGI3NTUwZmYxNWU5MWZiYjY5MTI0NTY3ZmRkM2E4Zjc2YThhNWNiNTUwNzg4MmY2NDFmOTgzMGMyJlgtQW16LVNpZ25lZEhlYWRlcnM9aG9zdCJ9.SeuL3rQ7xBn3hMOavG1e5YJNlWSLGmi7Jz_5agqLL1U"
+    image: "https://i.imgur.com/tWDSOl1.png"
   },
   {
     title: "Problem Solving",
@@ -169,7 +169,7 @@ const certifications = [
     date: "February 2025",
     credentialID: "DEF789012",
     credentialURL: "https://drive.google.com/file/d/1DBtHKGcGzmD99LLf6LpBEvUIYLV6HmB-/view?usp=sharing",
-    image: "https://private-user-images.githubusercontent.com/146804007/428436489-57dc4d2d-5229-4760-af21-8a1ed87baa8b.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3NDMzNzc4ODcsIm5iZiI6MTc0MzM3NzU4NywicGF0aCI6Ii8xNDY4MDQwMDcvNDI4NDM2NDg5LTU3ZGM0ZDJkLTUyMjktNDc2MC1hZjIxLThhMWVkODdiYWE4Yi5wbmc_WC1BbXotQWxnb3JpdGhtPUFXUzQtSE1BQy1TSEEyNTYmWC1BbXotQ3JlZGVudGlhbD1BS0lBVkNPRFlMU0E1M1BRSzRaQSUyRjIwMjUwMzMwJTJGdXMtZWFzdC0xJTJGczMlMkZhd3M0X3JlcXVlc3QmWC1BbXotRGF0ZT0yMDI1MDMzMFQyMzMzMDdaJlgtQW16LUV4cGlyZXM9MzAwJlgtQW16LVNpZ25hdHVyZT1iOTQ2MzJhZGIzMGQyNmIyYjliZGY3ZjI2YzZkYjJjNDQ1MTc0ODkzZmU1OTJlN2JjY2FlM2E0ZTk0ZGUxMDhlJlgtQW16LVNpZ25lZEhlYWRlcnM9aG9zdCJ9.Nhn70pkvTnACvGhFpctoHAsXkfc377Xgj76JvP286cU"
+    image: "https://i.imgur.com/i3JvYvK.png"
   },
   {
     title: "Competitive Programming",
@@ -177,7 +177,7 @@ const certifications = [
     date: "November 2024",
     credentialID: "GHI345678",
     credentialURL: "https://drive.google.com/file/d/1fG3GtYZb_OmUO9kn4y3K6P8Fzm41QZQV/view",
-    image: "https://private-user-images.githubusercontent.com/146804007/428436497-a4977450-f6e1-4122-9027-067f608ee963.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3NDMzNzc4ODcsIm5iZiI6MTc0MzM3NzU4NywicGF0aCI6Ii8xNDY4MDQwMDcvNDI4NDM2NDk3LWE0OTc3NDUwLWY2ZTEtNDEyMi05MDI3LTA2N2Y2MDhlZTk2My5wbmc_WC1BbXotQWxnb3JpdGhtPUFXUzQtSE1BQy1TSEEyNTYmWC1BbXotQ3JlZGVudGlhbD1BS0lBVkNPRFlMU0E1M1BRSzRaQSUyRjIwMjUwMzMwJTJGdXMtZWFzdC0xJTJGczMlMkZhd3M0X3JlcXVlc3QmWC1BbXotRGF0ZT0yMDI1MDMzMFQyMzMzMDdaJlgtQW16LUV4cGlyZXM9MzAwJlgtQW16LVNpZ25hdHVyZT02ZmJjOTlmMGI2MTY1NWQ0MDU4ZjZlMjZjMmJmZmIzMGM2YzE4MDg0YjFlMzZmZmFjMWIwMmI5NGYxZTQ3NzIyJlgtQW16LVNpZ25lZEhlYWRlcnM9aG9zdCJ9.P7J6i_jv2fzE_7MPcASmRVW7u8Zdq8NvXlHKUI6teSo"
+    image: "https://i.imgur.com/FTB8s9D.png"
   },
 ];
 
@@ -221,7 +221,7 @@ const projects = [
         color: "pink-text-gradient",
       },
     ],
-    image: "https://private-user-images.githubusercontent.com/146804007/428433997-df2d8a0e-3c70-4841-923b-9ed6944306e6.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3NDMzNzUxNDcsIm5iZiI6MTc0MzM3NDg0NywicGF0aCI6Ii8xNDY4MDQwMDcvNDI4NDMzOTk3LWRmMmQ4YTBlLTNjNzAtNDg0MS05MjNiLTllZDY5NDQzMDZlNi5wbmc_WC1BbXotQWxnb3JpdGhtPUFXUzQtSE1BQy1TSEEyNTYmWC1BbXotQ3JlZGVudGlhbD1BS0lBVkNPRFlMU0E1M1BRSzRaQSUyRjIwMjUwMzMwJTJGdXMtZWFzdC0xJTJGczMlMkZhd3M0X3JlcXVlc3QmWC1BbXotRGF0ZT0yMDI1MDMzMFQyMjQ3MjdaJlgtQW16LUV4cGlyZXM9MzAwJlgtQW16LVNpZ25hdHVyZT00YjFlMTZlNWJlNTkyOTQzYWVhZDE5MWRiNjA4ODk5ZmQ4NzI5Y2Q2MzUzOGNiNzkxOWFhMmJhNTdiNjVjYzFkJlgtQW16LVNpZ25lZEhlYWRlcnM9aG9zdCJ9.gf8JmkmK61TDtmwadiw0ked6WQuauKLJw06noR1e1vc",
+    image: "https://i.imgur.com/ZZ5GZYK.png",
     sourceCodeLink: "https://github.com/manideep2810/Chat-Application.",
   },
   {
