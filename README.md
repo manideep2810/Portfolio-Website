@@ -71,9 +71,6 @@ npm run build
 
 Deploy the contents of the `build` folder to your hosting service of choice (Netlify, Vercel, GitHub Pages, etc.).
 
-## License
-
-This project is open source and available under the [MIT License](LICENSE).
 
 ## Acknowledgements
 
