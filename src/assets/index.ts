@@ -1,9 +1,9 @@
 // Importing local images
-import chatApp from './Chat Application.png';
-import dsaImg from './Data Structures.png';
-import problemSolvingImg from './IICPC community.png';
-import competitiveProgrammingImg from './TLE Eliminators.png';
-import bookNotesApp from './Book Notes App.png';
+import chatApp from './images/Chat Application.png';
+import dsaImg from './images/Data Structures.png';
+import problemSolvingImg from './images/IICPC community.png';
+import competitiveProgrammingImg from './images/TLE Eliminators.png';
+import bookNotesApp from './images/Book Notes App.png';
 
 // Using placeholder images from public CDNs for other assets
 const logo = 'https://img.icons8.com/nolan/64/code.png';
