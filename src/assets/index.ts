@@ -1,4 +1,11 @@
-// Using placeholder images from public CDNs
+// Importing local images
+import chatApp from './Chat Application.png';
+import dsaImg from './Data Structures.png';
+import problemSolvingImg from './IICPC community.png';
+import competitiveProgrammingImg from './TLE Eliminators.png';
+import bookNotesApp from './Book Notes App.png';
+
+// Using placeholder images from public CDNs for other assets
 const logo = 'https://img.icons8.com/nolan/64/code.png';
 const menu = 'https://img.icons8.com/material-outlined/24/000000/menu--v1.png';
 const close = 'https://img.icons8.com/material-outlined/24/000000/delete-sign.png';
@@ -17,7 +24,7 @@ const company4 = 'https://img.icons8.com/color/48/000000/company.png';
 
 // Placeholders for project images
 const project1 = 'https://via.placeholder.com/300x200/4A6FF3/FFFFFF?text=Project+1';
-const project2 = 'https://via.placeholder.com/300x200/4A6FF3/FFFFFF?text=Project+2';
+const project2 = chatApp; // Using local image
 const project3 = 'https://via.placeholder.com/300x200/4A6FF3/FFFFFF?text=Project+3';
 
 // Placeholders for technology icons
@@ -67,4 +74,9 @@ export {
   figma,
   docker,
   github,
+  chatApp,
+  dsaImg,
+  problemSolvingImg,
+  competitiveProgrammingImg,
+  bookNotesApp,
 }; 

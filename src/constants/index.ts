@@ -1,3 +1,5 @@
+import { chatApp, dsaImg, problemSolvingImg, competitiveProgrammingImg, bookNotesApp } from '../assets';
+
 export const navLinks = [
   {
     id: "about",
@@ -117,7 +119,7 @@ const experiences = [
   {
     title: "Chat Application",
     companyName: "",
-    icon: "https://i.imgur.com/ZZ5GZYK.png",
+    icon: chatApp,
     iconBg: "#E6DEDD",
     date: "Jan 2021 - Feb 2022",
     points: [
@@ -142,7 +144,7 @@ const experiences = [
   {
     title: "Book Notes App",
     companyName: "",
-    icon: "https://private-user-images.githubusercontent.com/146804007/398187267-0cfa4b86-7ef8-41cb-95d3-60bc67fd406c.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3NDM0MDc0NzIsIm5iZiI6MTc0MzQwNzE3MiwicGF0aCI6Ii8xNDY4MDQwMDcvMzk4MTg3MjY3LTBjZmE0Yjg2LTdlZjgtNDFjYi05NWQzLTYwYmM2N2ZkNDA2Yy5wbmc_WC1BbXotQWxnb3JpdGhtPUFXUzQtSE1BQy1TSEEyNTYmWC1BbXotQ3JlZGVudGlhbD1BS0lBVkNPRFlMU0E1M1BRSzRaQSUyRjIwMjUwMzMxJTJGdXMtZWFzdC0xJTJGczMlMkZhd3M0X3JlcXVlc3QmWC1BbXotRGF0ZT0yMDI1MDMzMVQwNzQ2MTJaJlgtQW16LUV4cGlyZXM9MzAwJlgtQW16LVNpZ25hdHVyZT1iN2Y1M2ZkMDYyODNhOGYxZGY0M2M3ZDI0ZmY0OTE5ZDQ3MjdiNmM3ZDUxNmUxZGRjNjk3ZmYyNTJmNWE4MmI5JlgtQW16LVNpZ25lZEhlYWRlcnM9aG9zdCJ9.s8xwmqgFPD_D7jdUW-U9mJUXhCf5kWM0CEJDzW25fZs",
+    icon: bookNotesApp,
     iconBg: "#E6DEDD",
     date: "Jan 2023 - Present",
     points: [
@@ -161,7 +163,7 @@ const certifications = [
     date: "May 2023",
     credentialID: "803dfb93f740b11d4c1fd7406144d17d",
     credentialURL: "https://media.geeksforgeeks.org/courses/certificates/803dfb93f740b11d4c1fd7406144d17d.pdf",
-    image: "https://i.imgur.com/tWDSOl1.png"
+    image: dsaImg
   },
   {
     title: "Problem Solving",
@@ -169,7 +171,7 @@ const certifications = [
     date: "February 2025",
     credentialID: "DEF789012",
     credentialURL: "https://drive.google.com/file/d/1DBtHKGcGzmD99LLf6LpBEvUIYLV6HmB-/view?usp=sharing",
-    image: "https://i.imgur.com/i3JvYvK.png"
+    image: problemSolvingImg
   },
   {
     title: "Competitive Programming",
@@ -177,7 +179,7 @@ const certifications = [
     date: "November 2024",
     credentialID: "GHI345678",
     credentialURL: "https://drive.google.com/file/d/1fG3GtYZb_OmUO9kn4y3K6P8Fzm41QZQV/view",
-    image: "https://i.imgur.com/FTB8s9D.png"
+    image: competitiveProgrammingImg
   },
 ];
 
@@ -221,7 +223,7 @@ const projects = [
         color: "pink-text-gradient",
       },
     ],
-    image: "https://i.imgur.com/ZZ5GZYK.png",
+    image: chatApp,
     sourceCodeLink: "https://github.com/manideep2810/Chat-Application.",
   },
   {
